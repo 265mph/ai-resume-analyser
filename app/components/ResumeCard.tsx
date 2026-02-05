@@ -1,5 +1,5 @@
 import { Link } from "react-router"
-import ScoreCircle from "./scoreCircle"
+import ScoreCircle from "./ScoreCircle"
 
 const ResumeCard = ({ resume: {id, companyName, jobTitle, feedback, imagePath} }: { resume: Resume }) => {
   return (
